@@ -19,7 +19,7 @@ public class NagasuMain{
 		}
 		System.out.println(Arrays.toString(bays));
 		int hit = new Random().nextInt(100);
-		System.out.print("当選番号:" + hit);
+		System.out.println("当選番号:" + hit);
 
 		boolean tosen = false;
 		for(int i=0;i<bays.length;i++){    //当選番号との比較
