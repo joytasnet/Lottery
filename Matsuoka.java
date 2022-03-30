@@ -18,7 +18,8 @@ public class Matsuoka{
 			lotterys[i]=tmp;
 			if(winnum==lotterys[i]){
 				lose=winnum;
-			}if(i==buynum-1){
+			}
+			if(i==buynum-1){
 				System.out.printf("%d",lotterys[i]);
 			}else{
 				System.out.printf("%d,",lotterys[i]);
