@@ -1,7 +1,7 @@
 import java.util.*;
 public class Matsuoka{
 	public static void main(String[] args){
-		int[] lotterys=new int[10];
+		int[] lotterys=new int[100];
 		int winnum,buynum,lose=-1;
 		String win="";
 		System.out.print("何枚>>");
