@@ -21,7 +21,7 @@ public class MorozumiMain{
 			myLotts[i] = lotts[i]; 
 		}
 		System.out.println(Arrays.toString(myLotts));
-		int hit = new Random().nextInt(100);
+		int hit = new Random().nextInt(lotts.length);
 		System.out.println("当選番号:" + hit);
 		boolean isWin = false;
 		for(int n : myLotts){
