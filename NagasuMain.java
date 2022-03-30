@@ -1,7 +1,7 @@
 import java.util.*;
 public class NagasuMain{
 	public static void main(String[] args){
-		int[] loto = new int[100];
+		int[] loto = new int[101];
 		for(int i=0;i<loto.length;i++){     //番号の代入
 			loto[i] = i;
 		}
@@ -18,7 +18,7 @@ public class NagasuMain{
 			bays[i] = loto[i];
 		}
 		System.out.println(Arrays.toString(bays));
-		int hit = new Random().nextInt(100);
+		int hit = new Random().nextInt(101);
 		System.out.println("当選番号:" + hit);
 
 		boolean tosen = false;
