@@ -16,7 +16,7 @@ public class SasakiLottery{
 		for(int i=0;i<myLotts.length;i++){
 			myLotts[i] = lottery[i];
 		}
-		int win = new Random().nextInt(lottery.length)+1;
+		int win = new Random().nextInt(lottery.length);
 		System.out.println(Arrays.toString(myLotts));
 		System.out.println("当選番号:"+win);
 		boolean isWin = false;
